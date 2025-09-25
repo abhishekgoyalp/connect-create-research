@@ -6,8 +6,8 @@
 ## Table of Contents
 1. [Create User Profile](#create-user-profile)
 2. [Get the List of User Profiles](#get-the-list-of-user-profiles)
-3. [Backend Flow](#backend-flow)
-4. [View User’s full Profile](#view-users-full-profile)
+   - [Backend Flow](#backend-flow)
+3. [View User’s full Profile](#view-users-full-profile)
 
 ---
 
@@ -68,8 +68,6 @@ Returns the list of users by applying the current city and hometown city filters
   ]
 }
 ```
-
----
 
 ### Backend Flow
 1. Extract `currentCity` and `hometownCity` from query params.  
