@@ -71,7 +71,7 @@ Returns the list of users by applying the current city and hometown city filters
 
 ---
 
-## Backend Flow
+### Backend Flow
 1. Extract `currentCity` and `hometownCity` from query params.  
 2. Look up their IDs in the `cities` table:  
 
