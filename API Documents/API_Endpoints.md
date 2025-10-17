@@ -95,5 +95,5 @@ WHERE cc.name ILIKE :currentCity
 
 ## View User’s full Profile
 Returns the user’s full information, including their phone number and complete home address (including the region).
-
+The user with subscription will be able to call this API to view the full information of the intended user.
 ---
